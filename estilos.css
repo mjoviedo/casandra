@@ -108,7 +108,7 @@ nav a:hover {
 }
 
 #logo-mobile {
-  height: 4em;
+  height: 48px;
 }
 
 
@@ -133,7 +133,7 @@ nav a:hover {
 }
 
 .nav-mobile img {
-  height: 33px;
+  height: 28px;
 }
 
 aside {
@@ -180,7 +180,7 @@ aside {
 }
 
 #footer-mobile img {
-  height: 30px;
+  height: 28px;
 }
 
 #footer-mobile a:hover {
