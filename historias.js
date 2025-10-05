@@ -1,4 +1,4 @@
- var $hs = $('.js-horizontal-scroll');
+var $hs = $('.js-horizontal-scroll');
 var $sLeft = 0;
 var $hsw = $hs.outerWidth(true);
 
