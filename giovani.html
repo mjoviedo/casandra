@@ -1,0 +1,77 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casandra</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+    <nav class="nav-desktop">
+            <a href="index.html"><img id="logo" src="img/casandra.svg" alt="Inicio"></a>
+            <a href="centro.html"><img src="img/iconos/ico-centro.svg" alt="Centro de día"> Centro de día</a>
+            <a href="historia.html"><img src="img/iconos/ico-corazon.svg" alt="Nuestra historia">Nuestra historia</a>
+            <a href=""><img src="img/iconos/ico-editorial.svg" alt="">Editorial</a>
+            <a href=""><img src="img/iconos/ico-radio.svg" alt="">Radio</a>
+            <a href=""><img src="img/iconos/ico-formacion.svg" alt="">Formación</a>
+            <a href=""><img src="img/iconos/ico-ceramica.svg" alt="">Cerámica</a>
+            <a href=""><img src="img/iconos/ico-mensajes.svg" alt="">Contacto</a>
+    </nav>
+    <nav class="nav-mobile">
+        <a href="index.html"><img id="logo-mobile" src="img/casandra.svg" alt=""></a>
+        <div>
+            <a href=""><img src="img/iconos/ico-corazon.svg" alt=""></a>
+            <a href=""><img src="img/iconos/ico-mensajes.svg" alt=""></a>
+        </div>
+    </nav>
+    <main>
+        <div id="historias" class="js-horizontal-scroll">
+                <img src="img/avatares/giovanni.png" alt="">
+                <h2>Giovanni</h2>
+                <audio id="audio-player" controls autoplay width="700" height="300">
+                    <source type="video/mp4" src="audios/giovani.mp3">
+                    <track label="subtitulos" kind="subtitles" srclang="en" src="audios/giovani.vtt" default=""><track ></track>
+                </audio>
+        </div>
+        <div class="contenido">
+            <article>
+                <img src="audios/giovani.jpeg" alt="">
+                <img src="img/recitando.jpg" alt="">
+                <img src="img/pileta.jpg" alt="">
+                <p class="destacado gradiente-verde">
+                    50-30 como el fernet
+                </p>
+                <img src="img/libros4.jpg" alt="">
+                <img src="img/libros3.jpg" alt="">
+                <img src="img/guitarra.jpg" alt="">
+                <img src="img/libro-musica.jpg" alt="">
+                <img src="img/libros5.jpg" alt="">
+                <img src="img/caravana2.jpg" alt="">
+                <div class="espaciador"></div>
+                <div class="espaciador"></div>
+                <div class="espaciador"></div>
+            </article>
+            <div id="caja-subtitulos">
+            <p id="subtitulos"></p>
+        </div>
+
+    </main>
+    <aside>
+        <div id="indice-contenidos">
+            
+        </div>
+    </aside>
+    <div id="footer-mobile">
+        <a href="centro.html"><img src="img/iconos/ico-centro.svg" alt=""></a>
+        <a href="editorial.html"><img src="img/iconos/ico-editorial.svg" alt=""></a>
+        <a href="radio.html"><img src="img/iconos/ico-radio.svg" alt=""></a>
+        <a href="formacion.html"><img src="img/iconos/ico-formacion.svg" alt=""></a>
+        <a href="ceramica.html"><img src="img/iconos/ico-ceramica.svg" alt=""></a>
+    </div>
+
+
+<script src="jquery.min.js"></script>
+<script src="historias.js"></script>
+<script src="audio.js"></script>
+</body>
+</html>
