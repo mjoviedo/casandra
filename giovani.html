@@ -7,25 +7,31 @@
     <link rel="stylesheet" href="animations.css">
 </head>
 <body>
+    <!--NAVS-->
+    
     <nav class="nav-desktop">
             <a href="index.html"><img id="logo" src="img/casandra.svg" alt="Inicio"></a>
             <a href="centro.html"><img src="img/iconos/ico-centro.svg" alt="Centro de día"> Centro de día</a>
             <a href="historia.html"><img src="img/iconos/ico-corazon.svg" alt="Nuestra historia">Nuestra historia</a>
-            <a href=""><img src="img/iconos/ico-editorial.svg" alt="">Editorial</a>
-            <a href=""><img src="img/iconos/ico-radio.svg" alt="">Radio</a>
-            <a href=""><img src="img/iconos/ico-formacion.svg" alt="">Formación</a>
-            <a href=""><img src="img/iconos/ico-ceramica.svg" alt="">Cerámica</a>
-            <a href=""><img src="img/iconos/ico-mensajes.svg" alt="">Contacto</a>
+            <a href="editorial.html"><img src="img/iconos/ico-editorial.svg" alt="">Editorial</a>
+            <a href="radio.html"><img src="img/iconos/ico-radio.svg" alt="">Radio</a>
+            <a href="formacion.html"><img src="img/iconos/ico-formacion.svg" alt="">Formación</a>
+            <a href="ceramica.html"><img src="img/iconos/ico-ceramica.svg" alt="">Cerámica</a>
+            <a href="contacto.html"><img src="img/iconos/ico-mensajes.svg" alt="">Contacto</a>
     </nav>
     <nav class="nav-mobile">
         <a href="index.html"><img id="logo-mobile" src="img/casandra.svg" alt=""></a>
         <div>
-            <a href=""><img src="img/iconos/ico-corazon.svg" alt=""></a>
-            <a href=""><img src="img/iconos/ico-mensajes.svg" alt=""></a>
+            <a href="historia.html"><img src="img/iconos/ico-corazon.svg" alt=""></a>
+            <a href="contacto.html"><img src="img/iconos/ico-mensajes.svg" alt=""></a>
         </div>
-    </nav>
+    
+        
+    <!--CONTENIDO PRINCIPAL-->    
     <main>
-        <div id="historias" class="js-horizontal-scroll">
+        
+        <div class="contenido">
+            <div id="historias" class="js-horizontal-scroll">
                 <img src="img/avatares/giovanni.png" alt="">
                 <h2>Giovanni</h2>
                 <audio id="audio-player" controls autoplay width="700" height="300">
@@ -33,7 +39,6 @@
                     <track label="subtitulos" kind="subtitles" srclang="en" src="audios/giovani.vtt" default=""><track ></track>
                 </audio>
         </div>
-        <div class="contenido">
             <article>
                 <img src="audios/giovani.jpeg" alt="">
                 <img src="img/recitando.jpg" alt="">
@@ -56,11 +61,15 @@
         </div>
 
     </main>
+
+    <!--ASIDE-->
     <aside>
         <div id="indice-contenidos">
             
         </div>
     </aside>
+
+    <!--FOOTER MOBILE-->
     <div id="footer-mobile">
         <a href="centro.html"><img src="img/iconos/ico-centro.svg" alt=""></a>
         <a href="editorial.html"><img src="img/iconos/ico-editorial.svg" alt=""></a>

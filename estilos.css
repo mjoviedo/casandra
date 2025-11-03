@@ -66,9 +66,9 @@ p {
 
 nav {
     border: 0px solid black;
-    position: sticky;
+    /*position: sticky;
     top: 0px;
-    left: 0px;
+    left: 0px;*/
 }
 
 .nav-desktop {
@@ -234,8 +234,8 @@ main {
 @media screen and (min-width: 900px) {
 
 #historias {
-  position: sticky;
-  top: 0px;
+  /*position: sticky;
+  top: 0px;*/
   z-index: 3;
   width: 100%;
   display: flex;
@@ -243,7 +243,7 @@ main {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 2em;
+  gap: 1.2em;
   overflow: scroll;
   scrollbar-width: none;
   height: 129px;
@@ -403,12 +403,52 @@ audio {
   font-size: 3em;
 }
 
+.radio {
+  color: var(--blanco);
+  aspect-ratio: 3 / 1;
+  margin: 1em;
+  width: 85%;
+  text-align: left;
+  padding: 2em;
+  border-radius: 1em;
+}
 
+.diagris {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 255, 0.25)
+    ), url(img/diagris.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.agosto {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 200, 20, 0.25)
+    ), url(img/recitando.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.soundcloud {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(255, 153, 0, 1)
+    ), url(img/guitarra.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.soundcloud a {
+  color: white;
+}
 
 @media screen and (min-width: 900px) {
 #caja-subtitulos {
   position: fixed;
-  bottom: 15%;
+  bottom: 15px;
   max-width: 800px;
   min-width: 300px;
 }
