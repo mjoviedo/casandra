@@ -376,11 +376,10 @@ main {
 
 .destacado {
   color: var(--blanco);
-  width: 100%;
+  width: 95%;
   text-align: center;
   padding: 2em;
   border-radius: 1em;
-
   font-weight: 600;
   font-size: large;
 }
@@ -441,8 +440,17 @@ audio {
   background-repeat: no-repeat;
 }
 
-.soundcloud a {
+.radio a {
   color: white;
+}
+
+.caracol {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgb(106, 0, 255)
+    ), url(img/editorial4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 900px) {
