@@ -402,7 +402,7 @@ audio {
   font-size: 3em;
 }
 
-.radio {
+.tarjeta {
   color: var(--blanco);
   aspect-ratio: 3 / 1;
   margin: 1em;
@@ -410,37 +410,19 @@ audio {
   text-align: left;
   padding: 2em;
   border-radius: 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5em;
 }
 
-.diagris {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 0, 255, 0.25)
-    ), url(img/diagris.jpg);
-
-  background-size: cover;
-  background-repeat: no-repeat;
+.tarjeta img {
+  width: 150px;
 }
 
-.agosto {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.8),
-      rgba(0, 200, 20, 0.25)
-    ), url(img/recitando.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
-.soundcloud {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.8),
-      rgba(255, 153, 0, 1)
-    ), url(img/guitarra.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.radio a {
+.tarjeta a {
   color: white;
 }
 
