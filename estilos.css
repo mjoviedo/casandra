@@ -273,6 +273,11 @@ main {
 }
 }
 
+summary {
+  font-size: 1.1em;
+  font-weight: 700;
+  margin-top: 0.7em;
+}
 
 .galeria {
   width: 100%;
